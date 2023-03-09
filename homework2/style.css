@@ -1,0 +1,70 @@
+.content {
+    text-align: center;
+  }
+
+@font-face {
+	font-family: 'SFNS Display Thin';
+	src: url("fonts/sfns_display_thin.eot"); /* IE 9 Compatibility Mode */
+	src: url("fonts/sfns_display_thin.eot?#iefix") format("embedded-opentype"), /* IE < 9 */
+		    url("fonts/sfns_display_thin.woff2") format("woff2"), /* Super Modern Browsers */
+		    url("fonts/sfns_display_thin.woff") format("woff"), /* Firefox >= 3.6, any other modern browser */
+		    url("fonts/sfns_display_thin.ttf") format("truetype"), /* Safari, Android, iOS */
+		    url("fonts/sfns_display_thin.svg#sfns_display_thin") format("svg"); /* Chrome < 4, Legacy iOS */
+}
+h1 {
+    font-family: 'SFNS Display Thin';
+    color: black;
+    font-size: 5rem;
+   
+}
+.lol {
+    font-size: 2rem;
+}
+.silka {
+    font-size: 1.5rem;
+}
+.img1 {
+    width: 350px;
+    margin-right: 1050px; /* Отступ справа */
+    margin-top: 30px;   
+}
+
+.everest {
+    margin-right: 1100px; /* Отступ справа */
+    margin-top: -100px;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.img2 {
+    width: 350px;
+    margin-left: 1050px; /* Отступ справа */
+    margin-top: -300px;
+}
+.elbrus {
+    margin-left: 1000px; /* Отступ справа */
+    margin-top: 10px;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+html {
+
+    background-image: url(fontan.jpg);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;
+    
+    background-attachment: fixed;
+    
+    -webkit-background-size: cover;
+    
+    -moz-background-size: cover;
+    
+    -o-background-size: cover;
+    
+    background-size: cover;
+    
+    }
+
+
